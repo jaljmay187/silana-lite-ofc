@@ -6,7 +6,7 @@
 
 import axios from 'axios';
 import cheerio from 'cheerio';
-let { downloadContentFromMessage } = await import("baileys");
+let { downloadContentFromMessage } = await import("@adiwajshing/baileys");
 
 
 class Fuck extends Error {
